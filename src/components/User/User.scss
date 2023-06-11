@@ -1,0 +1,37 @@
+.user {
+  width: 80%;
+  padding: 10px 0px;
+  margin: 15px 15px;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  color: #212121;
+  box-shadow: 0px 0px 10px rgb(232, 232, 232);
+  //   &__header {
+  //     align-content: center;
+  //     &-image {
+  //       border-radius: 10px 0px 0px 10px;
+  //     }
+  //   }
+  //   &__body {
+  //     text-align: center;
+  //     &-description {
+  //     }
+  //     &-list {
+  //     }
+  //   }
+
+  &__image {
+    &:before {
+      content: "";
+      position: relative;
+      left: 102%;
+      background-color: #ccc;
+      width: 13%;
+      display: inline-block;
+      height: 2px;
+      top: 45%;
+      z-index: -1;
+      margin-top: 15%;
+    }
+  }
+}
